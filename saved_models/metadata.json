@@ -1,0 +1,24 @@
+{
+  "best_model": "Logistic Regression",
+  "accuracy": 0.7841,
+  "precision": 0.6275,
+  "recall": 0.6671,
+  "macro_f1": 0.6165,
+  "label_classes": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "tfidf_vocab_size": 15000,
+  "feature_selection": {
+    "method": "chi2",
+    "k": 500
+  },
+  "sentiment_map": {
+    "1": "Negative",
+    "2": "Negative",
+    "3": "Neutral",
+    "4": "Positive",
+    "5": "Positive"
+  }
+}
