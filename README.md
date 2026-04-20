@@ -8,6 +8,16 @@
 ## Project Topic
 Sentiment Analysis of Product Reviews using TF-IDF and Machine Learning Classifiers
 
+ 📁 Project Structure
+
+- 01_data_eda.ipynb – Data analysis
+- 02_modeling.ipynb – Model building
+- 03_results.ipynb – Results and evaluation
+- sentiment_analysis.py – Main pipeline
+- streamlit_app.py – Web application
+- plots/ – Visualizations
+- saved_models/ – Trained models
+
 
 ---
 
