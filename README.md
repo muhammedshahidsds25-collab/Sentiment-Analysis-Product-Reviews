@@ -134,6 +134,21 @@ Features of the deployed system:
 This makes the model accessible as an interactive and user-friendly application.  
 
 
+🧪 Sample Usage
+
+**Input:**
+"This product is amazing and works perfectly!"
+
+**Output:**
+Positive
+
+**Input:**
+"Not worth the money, very bad quality."
+
+**Output:**
+Negative
+
+
 
 
 ▶️ How to Run the Project
