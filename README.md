@@ -117,7 +117,18 @@ The performance of all machine learning models was evaluated using multiple metr
 - Accuracy alone is misleading due to class imbalance  
 - Macro F1 provides a more reliable evaluation  
 - Logistic Regression offers the best balance across classes  
-- Neutral class remains the most challenging to predict  
+- Neutral class remains the most challenging to predict
+
+ ▶️ How to Run the Project
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the main pipeline:
+   python sentiment_analysis.py <dataset.csv>
+
+3. Run the Streamlit app:
+   streamlit run streamlit_app.py
 
 
 
