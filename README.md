@@ -130,6 +130,14 @@ The performance of all machine learning models was evaluated using multiple metr
 - Performance may vary across different datasets
 
 
+ 🔮 Future Improvements
+
+- Apply SMOTE or class balancing techniques  
+- Use deep learning models like LSTM or BERT  
+- Improve Neutral class prediction  
+- Deploy using cloud platforms for scalability  
+
+
 
   
   
