@@ -118,8 +118,25 @@ The performance of all machine learning models was evaluated using multiple metr
 - Macro F1 provides a more reliable evaluation  
 - Logistic Regression offers the best balance across classes  
 - Neutral class remains the most challenging to predict
+  
+  
 
- ▶️ How to Run the Project
+ 🌐 Deployment
+
+The trained model is deployed using a Streamlit web application.
+
+Features of the deployed system:
+- Classifies product reviews into Positive, Neutral, and Negative
+- Supports single review prediction
+- Allows batch prediction using CSV upload
+- Displays prediction confidence scores
+
+This makes the model accessible as an interactive and user-friendly application.  
+
+
+
+
+▶️ How to Run the Project
 
 1. Install dependencies:
    pip install -r requirements.txt
