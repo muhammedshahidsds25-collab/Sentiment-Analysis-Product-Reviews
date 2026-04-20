@@ -67,6 +67,42 @@ It provided the best balance across all sentiment classes.
 
 
 
+  Results and Evaluation Analysis
+
+The performance of the machine learning models was evaluated using multiple classification metrics and visual analysis techniques. The evaluation process ensured a comprehensive understanding of model behavior across different sentiment classes.
+
+🔹 Evaluation Metrics
+
+- Accuracy – Measures overall correctness  
+- Precision – Measures correctness of positive predictions  
+- Recall – Measures ability to find all relevant instances  
+- Macro F1 Score – Balanced evaluation across all classes  
+
+🔹 Model Comparison
+
+Models used:
+- Logistic Regression  
+- Multinomial Naive Bayes  
+- Linear SVM  
+- Gradient Boosting  
+
+Best model selected based on Macro F1 Score.
+
+🔹 Confusion Matrix Analysis
+
+Confusion matrix was used to understand:
+- Correct predictions  
+- Misclassifications  
+- Class-wise performance  
+
+🔹 Key Observations
+
+- Accuracy alone is not enough  
+- Macro F1 gives better insight  
+- Model performance varies across sentiment classes  
+
+
+
 
 
 
