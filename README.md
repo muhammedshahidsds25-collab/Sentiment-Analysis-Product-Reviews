@@ -118,6 +118,19 @@ The performance of all machine learning models was evaluated using multiple metr
 - Macro F1 provides a more reliable evaluation  
 - Logistic Regression offers the best balance across classes  
 - Neutral class remains the most challenging to predict
+
+
+
+
+
+ ⚠️ Limitations
+
+- Model struggles with Neutral class due to class imbalance  
+- TF-IDF does not capture deep contextual meaning  
+- Performance may vary across different datasets
+
+
+
   
   
 
@@ -132,6 +145,11 @@ Features of the deployed system:
 - Displays prediction confidence scores
 
 This makes the model accessible as an interactive and user-friendly application.  
+
+
+
+
+
 
 
 🧪 Sample Usage
@@ -151,6 +169,11 @@ Negative
 
 
 
+
+
+
+
+
 ▶️ How to Run the Project
 
 1. Install dependencies:
@@ -161,6 +184,9 @@ Negative
 
 3. Run the Streamlit app:
    streamlit run streamlit_app.py
+
+
+
 
 
 
