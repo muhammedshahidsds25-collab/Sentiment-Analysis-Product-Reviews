@@ -23,7 +23,7 @@ Sentiment Analysis of Product Reviews using TF-IDF and Machine Learning Classifi
 - Neutral class is very small
 - Data imbalance may affect model performance
 
-- ## ⚠️ Data Challenges
+ ## ⚠️ Data Challenges
 
 - Class imbalance between sentiment classes
 - Presence of noise (URLs, special characters)
