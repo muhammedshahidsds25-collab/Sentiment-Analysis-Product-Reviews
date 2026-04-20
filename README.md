@@ -66,40 +66,48 @@ Logistic Regression achieved the best performance:
 It provided the best balance across all sentiment classes.
 
 
+📊 Results and Evaluation Analysis
 
-  Results and Evaluation Analysis
+The performance of all machine learning models was evaluated using multiple metrics to ensure a fair comparison, especially due to the **imbalanced dataset**.
 
-The performance of the machine learning models was evaluated using multiple classification metrics and visual analysis techniques. The evaluation process ensured a comprehensive understanding of model behavior across different sentiment classes.
+---
 
-🔹 Evaluation Metrics
+ 🔹 Evaluation Metrics
 
-- Accuracy – Measures overall correctness  
-- Precision – Measures correctness of positive predictions  
-- Recall – Measures ability to find all relevant instances  
-- Macro F1 Score – Balanced evaluation across all classes  
+- **Accuracy** – Overall correctness of predictions  
+- **Precision** – Correctness of predicted labels  
+- **Recall** – Ability to identify all relevant instances  
+- **⭐ Macro F1 Score** – Balanced metric across all classes (used as primary metric)
 
-🔹 Model Comparison
+---
 
-Models used:
-- Logistic Regression  
-- Multinomial Naive Bayes  
-- Linear SVM  
-- Gradient Boosting  
+ 🔹 Model Comparison
 
-Best model selected based on Macro F1 Score.
+| Model                  | Accuracy | Macro F1 |
+|-----------------------|----------|----------|
+| Logistic Regression ⭐ | ~0.79    | ~0.63    |
+| Linear SVM            | ~0.88    | ~0.59    |
+| Gradient Boosting     | ~0.87    | ~0.60    |
+| Multinomial NB        | ~0.85    | ~0.56    |
+
+> 👉 **Logistic Regression selected as best model based on Macro F1 Score**
+
+---
 
 🔹 Confusion Matrix Analysis
 
-Confusion matrix was used to understand:
-- Correct predictions  
-- Misclassifications  
-- Class-wise performance  
+- Strong performance on **Negative class**  
+- Good balance on **Positive class**  
+- Poor detection of **Neutral class** due to low representation  
 
-🔹 Key Observations
+---
 
-- Accuracy alone is not enough  
-- Macro F1 gives better insight  
-- Model performance varies across sentiment classes  
+ 🔹 Key Observations
+
+- Accuracy alone is misleading due to class imbalance  
+- Macro F1 provides a more reliable evaluation  
+- Logistic Regression offers the best balance across classes  
+- Neutral class remains the most challenging to predict  
 
 
 
