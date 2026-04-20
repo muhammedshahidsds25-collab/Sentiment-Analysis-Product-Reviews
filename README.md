@@ -1,7 +1,7 @@
 # Sentiment Analysis of Product Reviews
 
 ## Team Members
-- ANU GOPAL v 
+- ANU GOPAL V
 - RASHA K K  
 - MUHAMMED SHAHID S  
 
